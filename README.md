@@ -20,5 +20,8 @@ This project analyzes the relationship between remote work and mental health, us
 - Designed an interactive dashboard for trend exploration
 - Provided actionable insights for mental health in remote work environments
 
+## 📈 Dashboard Preview
+*(Insert screenshot here)*
+
 ## 🧑‍💻 Author
 **Shamleena**
