@@ -4,13 +4,13 @@
 This project analyzes the relationship between remote work and mental health, using Python for data preparation, R for statistical testing, and Tableau for interactive dashboard creation.
 
 ## 📂 Project Files
-- `Edited main Project.ipynb` → Python data cleaning, preparation, and EDA
-- `Remote Work and Mental Health Tableau.twb` → Tableau dashboard
-- `statistical_testing.R` → R scripts for hypothesis testing
+- `Remote Work and Mental Health Analysis.ipynb` → Python data cleaning, preparation, and EDA
+- `Remote Work and Mental Health Dashboard.twb` → Tableau dashboard
+- `Remote Work and Mental Health - Statistical Testing.R` → R scripts for hypothesis testing
 
 ## 🛠 Tools & Technologies
-- Python (pandas, matplotlib, seaborn)
-- R (ANOVA, t-tests, chi-square)
+- Python (pandas, matplotlib, seaborn, plotly.express)
+- R (ANOVA, t-tests, chi-square,f-tests,z-test)
 - Tableau (interactive dashboard)
 - GitHub for version control
 
