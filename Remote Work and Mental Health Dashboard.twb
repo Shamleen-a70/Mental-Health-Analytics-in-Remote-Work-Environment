@@ -1,0 +1,3009 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.20.0221.0754                               -->
+<workbook original-version='18.1' source-build='2019.4.4 (20194.20.0221.0754)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts ignorable='true' predowngraded='true' />
+    <BasicButtonObject />
+    <BasicButtonObjectTextSupport ignorable='true' predowngraded='true' />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Cleaned_Mental_Health_Remote_Work' inline='true' name='federated.1e34wtr1smen6014nlo030sp01zh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Cleaned_Mental_Health_Remote_Work' name='textscan.03hkj981utyqv71e1rzdf10nrpio'>
+            <connection class='textscan' directory='C:/Users/HP/OneDrive/Desktop/shamleena' filename='Cleaned_Mental_Health_Remote_Work.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.03hkj981utyqv71e1rzdf10nrpio' name='Cleaned_Mental_Health_Remote_Work.csv' table='[Cleaned_Mental_Health_Remote_Work#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Employee_ID' ordinal='0' />
+            <column datatype='integer' name='Age' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='string' name='Job_Role' ordinal='3' />
+            <column datatype='string' name='Industry' ordinal='4' />
+            <column datatype='integer' name='Years_of_Experience' ordinal='5' />
+            <column datatype='string' name='Work_Location' ordinal='6' />
+            <column datatype='integer' name='Hours_Worked_Per_Week' ordinal='7' />
+            <column datatype='integer' name='Number_of_Virtual_Meetings' ordinal='8' />
+            <column datatype='integer' name='Work_Life_Balance_Rating' ordinal='9' />
+            <column datatype='string' name='Stress_Level' ordinal='10' />
+            <column datatype='string' name='Mental_Health_Condition' ordinal='11' />
+            <column datatype='string' name='Access_to_Mental_Health_Resources' ordinal='12' />
+            <column datatype='string' name='Productivity_Change' ordinal='13' />
+            <column datatype='integer' name='Social_Isolation_Rating' ordinal='14' />
+            <column datatype='string' name='Satisfaction_with_Remote_Work' ordinal='15' />
+            <column datatype='integer' name='Company_Support_for_Remote_Work' ordinal='16' />
+            <column datatype='string' name='Physical_Activity' ordinal='17' />
+            <column datatype='string' name='Sleep_Quality' ordinal='18' />
+            <column datatype='string' name='Region' ordinal='19' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee_ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Employee_ID]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Employee_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job_Role</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Job_Role]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Job_Role</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Years_of_Experience</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Years_of_Experience]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Years_of_Experience</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work_Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Work_Location]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Work_Location</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hours_Worked_Per_Week</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hours_Worked_Per_Week]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Hours_Worked_Per_Week</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number_of_Virtual_Meetings</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number_of_Virtual_Meetings]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Number_of_Virtual_Meetings</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Work_Life_Balance_Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Work_Life_Balance_Rating]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Work_Life_Balance_Rating</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stress_Level</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Stress_Level]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Stress_Level</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mental_Health_Condition</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mental_Health_Condition]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Mental_Health_Condition</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Access_to_Mental_Health_Resources</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Access_to_Mental_Health_Resources]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Access_to_Mental_Health_Resources</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Productivity_Change</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Productivity_Change]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Productivity_Change</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Social_Isolation_Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Social_Isolation_Rating]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Social_Isolation_Rating</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Satisfaction_with_Remote_Work</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Satisfaction_with_Remote_Work]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Satisfaction_with_Remote_Work</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company_Support_for_Remote_Work</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Company_Support_for_Remote_Work]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Company_Support_for_Remote_Work</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Physical_Activity</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Physical_Activity]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Physical_Activity</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sleep_Quality</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sleep_Quality]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Sleep_Quality</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[Cleaned_Mental_Health_Remote_Work.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Stress_level_numeric' datatype='integer' name='[Calculation_-419397679545937920]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Stress_Level]=&quot;High&quot; THEN 3 ELSEIF [Stress_Level]=&quot;Medium&quot; &#13;&#10;THEN 2 ELSEIF [Stress_Level]=&quot;Low&quot; THEN 1 END' />
+      </column>
+      <column caption='Is_Remote' datatype='integer' name='[Calculation_4813785088876081152]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Work_Location] = &quot;Remote&quot; THEN 1 ELSE 0 END' />
+      </column>
+      <column caption='Age Group' datatype='string' name='[Calculation_654710831864573952]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Age] &lt; 25 THEN &quot;20-25&quot;&#13;&#10;ELSEIF [Age] &lt; 35 THEN &quot;25-34&quot;&#13;&#10;ELSEIF [Age] &lt; 45 THEN &quot;35-44&quot;&#13;&#10;ELSEIF [Age] &lt; 55 THEN &quot;45-54&quot;&#13;&#10;ELSE &quot;55+&quot;&#13;&#10;END' />
+      </column>
+      <column datatype='integer' name='[Hours_Worked_Per_Week]' role='dimension' type='quantitative' />
+      <column datatype='string' name='[Mental_Health_Condition]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='None' datatype='string' name='[Region]' role='dimension' semantic-role='[Country].[Name]' type='nominal' />
+      <column datatype='string' name='[Satisfaction_with_Remote_Work]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+      <column-instance column='[Mental_Health_Condition]' derivation='None' name='[none:Mental_Health_Condition:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Satisfaction_with_Remote_Work]' derivation='None' name='[none:Satisfaction_with_Remote_Work:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.579387' measure-ordering='alphabetic' measure-percentage='0.420613' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Region:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Africa&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Oceania&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;North America&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Europe&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;South America&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Asia&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Work_Location:nk]' palette='purple_10_0' type='palette'>
+            <map to='#7c4d79'>
+              <bucket>&quot;Remote&quot;</bucket>
+            </map>
+            <map to='#bc86a9'>
+              <bucket>&quot;Onsite&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Hybrid&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Mental_Health_Condition:nk]' palette='purple_10_0' type='palette'>
+            <map to='#7c4d79'>
+              <bucket>&quot;Not Specified&quot;</bucket>
+            </map>
+            <map to='#a5729b'>
+              <bucket>&quot;Depression&quot;</bucket>
+            </map>
+            <map to='#cd9bbc'>
+              <bucket>&quot;Burnout&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Anxiety&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Satisfaction_with_Remote_Work:nk]' palette='purple_10_0' type='palette'>
+            <map to='#7c4d79'>
+              <bucket>&quot;Unsatisfied&quot;</bucket>
+            </map>
+            <map to='#bc86a9'>
+              <bucket>&quot;Satisfied&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Neutral&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Stress_Level:nk]' palette='purple_10_0' type='palette'>
+            <map to='#7c4d79'>
+              <bucket>&quot;Medium&quot;</bucket>
+            </map>
+            <map to='#bc86a9'>
+              <bucket>&quot;Low&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;High&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Avg Stress level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Average Stress Level </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column caption='Stress_level_numeric' datatype='integer' name='[Calculation_-419397679545937920]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Stress_Level]=&quot;High&quot; THEN 3 ELSEIF [Stress_Level]=&quot;Medium&quot; &#13;&#10;THEN 2 ELSEIF [Stress_Level]=&quot;Low&quot; THEN 1 END' />
+            </column>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_-419397679545937920]' derivation='Avg' name='[avg:Calculation_-419397679545937920:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='216' />
+            <format attr='font-size' data-class='subtotal' scope='rows' value='10' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#f5f5f5' />
+            <format attr='font-size' data-class='total' scope='rows' value='10' />
+            <format attr='font-size' data-class='total' scope='cols' value='10' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' scope='rows' value='12' />
+            <format attr='color' data-class='total' scope='rows' value='#555555' />
+            <format attr='font-size' data-class='total' scope='cols' value='14' />
+            <format attr='font-size' data-class='subtotal' scope='cols' value='14' />
+            <format attr='color' data-class='total' scope='cols' value='#b6992d' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#b6992d' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='rows' value='10' />
+            <format attr='color' scope='cols' value='#b6992d' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='12' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[avg:Calculation_-419397679545937920:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{FDAE02F8-EDD9-49A1-B325-3DC4A72D2C14}' />
+    </worksheet>
+    <worksheet name='Fully Remote'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Fully Remote Workers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column caption='Is_Remote' datatype='integer' name='[Calculation_4813785088876081152]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Work_Location] = &quot;Remote&quot; THEN 1 ELSE 0 END' />
+            </column>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_4813785088876081152]' derivation='Sum' name='[sum:Calculation_4813785088876081152:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='248' />
+            <format attr='font-size' data-class='subtotal' scope='rows' value='10' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#f5f5f5' />
+            <format attr='font-size' data-class='total' scope='rows' value='10' />
+            <format attr='font-size' data-class='total' scope='cols' value='10' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' scope='rows' value='12' />
+            <format attr='color' data-class='total' scope='rows' value='#555555' />
+            <format attr='font-size' data-class='total' scope='cols' value='14' />
+            <format attr='font-size' data-class='subtotal' scope='cols' value='14' />
+            <format attr='color' data-class='total' scope='cols' value='#b6992d' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#b6992d' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='rows' value='10' />
+            <format attr='color' scope='cols' value='#b6992d' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='12' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_4813785088876081152:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{84A2675E-CF70-4BEF-B919-AA93A1F2DB3D}' />
+    </worksheet>
+    <worksheet name='Mental Health Condition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Mental Health Condition</run>
+            <run fontalignment='1'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_-8853232406803820543]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Mental_Health_Condition]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Mental_Health_Condition]' derivation='None' name='[none:Mental_Health_Condition:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[pcto:sum:Number of Records:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_-8853232406803820543]' derivation='User' name='[usr:Calculation_-8853232406803820543:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' field-type='quantitative' fold='true' max='0.0' min='0.0' range-type='fixed' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='1' field='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' field-type='quantitative' max='0.0' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='stroke-size' value='0' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' value='323' />
+            <format attr='text-format' field='[federated.1e34wtr1smen6014nlo030sp01zh].[pcto:sum:Number of Records:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]' />
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]' />
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[pcto:sum:Number of Records:qk]' />
+              <wedge-size column='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Mental_Health_Condition:&#9;</run>
+                <run bold='true'>&lt;[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Total Number of Records along Table (Across):&#9;</run>
+                <run bold='true'>&lt;[federated.1e34wtr1smen6014nlo030sp01zh].[pcto:sum:Number of Records:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Number of Records:&#9;</run>
+                <run bold='true'>&lt;[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]&gt;</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.1754143238067627' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='selection' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk] + [federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk])</cols>
+      </table>
+      <simple-id uuid='{C788CD69-F86C-43FB-9D90-BA32BFED879A}' />
+    </worksheet>
+    <worksheet name='Remote Work Satisfaction'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Remote Work Satisfaction</run>
+            <run fontalignment='1'>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_-8853232406803820543]' role='measure' type='quantitative' user:unnamed='Sheet 2'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Satisfaction_with_Remote_Work]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Satisfaction_with_Remote_Work]' derivation='None' name='[none:Satisfaction_with_Remote_Work:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[pcto:sum:Number of Records:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_-8853232406803820543]' derivation='User' name='[usr:Calculation_-8853232406803820543:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' field-type='quantitative' fold='true' max='0.0' min='0.0' range-type='fixed' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='1' field='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' scope='cols' value='false' />
+            <encoding attr='space' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' field-type='quantitative' max='0.0' min='0.0' range-type='fixed' scope='cols' type='space' />
+            <format attr='stroke-size' value='0' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' value='323' />
+            <format attr='text-format' field='[federated.1e34wtr1smen6014nlo030sp01zh].[pcto:sum:Number of Records:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' />
+              <wedge-size column='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' />
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' />
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[pcto:sum:Number of Records:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Satisfaction_with_Remote_Work:&#9;</run>
+                <run bold='true'>&lt;[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% of Total Number of Records along Table (Across):&#9;</run>
+                <run bold='true'>&lt;[federated.1e34wtr1smen6014nlo030sp01zh].[pcto:sum:Number of Records:qk]&gt;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Number of Records:&#9;</run>
+                <run bold='true'>&lt;[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]&gt;</run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.1754143238067627' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#4e79a7' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='selection' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <customized-tooltip>
+              <formatted-text />
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk] + [federated.1e34wtr1smen6014nlo030sp01zh].[usr:Calculation_-8853232406803820543:qk])</cols>
+      </table>
+      <simple-id uuid='{533FF1FD-7876-4603-BCD8-3D67884F35A1}' />
+    </worksheet>
+    <worksheet name='Satisfaction with Remote work by role'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='10'>Satisfaction with Remote work by role</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Job_Role]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Satisfaction_with_Remote_Work]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Job_Role]' derivation='None' name='[none:Job_Role:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Satisfaction_with_Remote_Work]' derivation='None' name='[none:Satisfaction_with_Remote_Work:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Job_Role:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#8942a7' />
+            <format attr='background-color' value='#efebe8' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='color' value='#000000' />
+            <format attr='font-weight' value='bold' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' />
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' />
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.0544751882553101' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]</rows>
+        <cols>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Job_Role:nk]</cols>
+      </table>
+      <simple-id uuid='{1EEBDE60-8105-4B69-B1ED-A7E7DEFA9DE6}' />
+    </worksheet>
+    <worksheet name='Satisfied With Remote'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Satisfied with Remote Work</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Satisfaction_with_Remote_Work]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Satisfaction_with_Remote_Work]' derivation='None' name='[none:Satisfaction_with_Remote_Work:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]'>
+            <groupfilter function='member' level='[none:Satisfaction_with_Remote_Work:nk]' member='&quot;Satisfied&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='280' />
+            <format attr='font-size' data-class='subtotal' scope='rows' value='10' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#f5f5f5' />
+            <format attr='font-size' data-class='total' scope='rows' value='10' />
+            <format attr='font-size' data-class='total' scope='cols' value='10' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#f28e2b' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' scope='rows' value='12' />
+            <format attr='color' data-class='total' scope='rows' value='#555555' />
+            <format attr='font-size' data-class='total' scope='cols' value='14' />
+            <format attr='font-size' data-class='subtotal' scope='cols' value='14' />
+            <format attr='color' data-class='total' scope='cols' value='#b6992d' />
+            <format attr='color' data-class='subtotal' scope='cols' value='#b6992d' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' scope='rows' value='10' />
+            <format attr='color' scope='cols' value='#b6992d' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='12' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{A2039360-52E1-48F1-8765-1D9246BDEEFB}' />
+    </worksheet>
+    <worksheet name='Sheet 18'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{CB138F0D-D7FA-4F00-8816-F5F24F8CB89C}' />
+    </worksheet>
+    <worksheet name='Sheet 19'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column caption='0' datatype='integer' name='[Calculation_4813785088909242371]' role='measure' type='quantitative' user:unnamed='Sheet 19'>
+              <calculation class='tableau' formula='0' />
+            </column>
+            <column-instance column='[Calculation_4813785088909242371]' derivation='Sum' name='[sum:Calculation_4813785088909242371:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='123' />
+            <format attr='height' value='51' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='stroke-color' id='annotation_0' value='#b07aa1' />
+            <format attr='rounding' id='annotation_0' value='large' />
+            <format attr='fill-color' id='annotation_0' value='#efebe8' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_4813785088909242371:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <annotations>
+          <annotation class='area' id='0' text-pinx='0.5' text-piny='0.5' text-width-delta='-18'>
+            <formatted-text />
+            <top-left>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0'>
+                  <node-reference />
+                </x-coord>
+                <y-coord cell-offset='0'>
+                  <node-reference />
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </top-left>
+            <bottom-right>
+              <visual-coordinate class='axis'>
+                <x-coord cell-offset='0.993631'>
+                  <node-reference />
+                </x-coord>
+                <y-coord cell-offset='0.939394'>
+                  <node-reference />
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </bottom-right>
+            <text x='0.5' y='0.5' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{D2654270-93AE-4E31-9679-95AE6542E501}' />
+    </worksheet>
+    <worksheet name='Stress Level Over Weekly Work Hours'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Stress Level Over Weekly Work Hours</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column caption='Stress_level_numeric' datatype='integer' name='[Calculation_-419397679545937920]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Stress_Level]=&quot;High&quot; THEN 3 ELSEIF [Stress_Level]=&quot;Medium&quot; &#13;&#10;THEN 2 ELSEIF [Stress_Level]=&quot;Low&quot; THEN 1 END' />
+            </column>
+            <column datatype='integer' name='[Hours_Worked_Per_Week]' role='dimension' type='quantitative' />
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_-419397679545937920]' derivation='Avg' name='[avg:Calculation_-419397679545937920:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Hours_Worked_Per_Week]' derivation='None' name='[none:Hours_Worked_Per_Week:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Hours_Worked_Per_Week:qk]' scope='cols' value='true' />
+            <format attr='display' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[avg:Calculation_-419397679545937920:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Hours_Worked_Per_Week:qk]' field-type='quantitative' max='47' min='18' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[avg:Calculation_-419397679545937920:qk]' field-type='quantitative' max='2.6241782222290357' min='1.1913911986444494' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='8' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#8942a7' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1e34wtr1smen6014nlo030sp01zh].[avg:Calculation_-419397679545937920:qk]</rows>
+        <cols>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Hours_Worked_Per_Week:qk]</cols>
+      </table>
+      <simple-id uuid='{681FD02D-DACA-4FE5-B33E-7919EB24DFCB}' />
+    </worksheet>
+    <worksheet name='Stress Level by Age Group'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='10'>Stress Level by Age Group</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Stress_level_numeric' datatype='integer' name='[Calculation_-419397679545937920]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Stress_Level]=&quot;High&quot; THEN 3 ELSEIF [Stress_Level]=&quot;Medium&quot; &#13;&#10;THEN 2 ELSEIF [Stress_Level]=&quot;Low&quot; THEN 1 END' />
+            </column>
+            <column caption='Age Group' datatype='string' name='[Calculation_654710831864573952]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Age] &lt; 25 THEN &quot;20-25&quot;&#13;&#10;ELSEIF [Age] &lt; 35 THEN &quot;25-34&quot;&#13;&#10;ELSEIF [Age] &lt; 45 THEN &quot;35-44&quot;&#13;&#10;ELSEIF [Age] &lt; 55 THEN &quot;45-54&quot;&#13;&#10;ELSE &quot;55+&quot;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Calculation_654710831864573952]' derivation='None' name='[none:Calculation_654710831864573952:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_-419397679545937920]' derivation='Sum' name='[sum:Calculation_-419397679545937920:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_-419397679545937920:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+            <format attr='display' class='1' field='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_-419397679545937920:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_-419397679545937920:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_-419397679545937920:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.07596684992313385' />
+                <format attr='mark-color' value='#8942a7' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_-419397679545937920:qk]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#d4a6c8' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_-419397679545937920:qk] + [federated.1e34wtr1smen6014nlo030sp01zh].[sum:Calculation_-419397679545937920:qk])</rows>
+        <cols>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Calculation_654710831864573952:nk]</cols>
+      </table>
+      <simple-id uuid='{14346104-7561-41CC-9EC3-070091778B8D}' />
+    </worksheet>
+    <worksheet name='Stress Level by Work Location'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#000000' fontsize='10'>Stress Level by Work Location</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' value='86' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' scope='cols' value='0' />
+            <format attr='border-style' data-class='total' scope='cols' value='none' />
+            <format attr='border-width' data-class='total' scope='rows' value='0' />
+            <format attr='border-style' data-class='total' scope='rows' value='none' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' />
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' />
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.41679558157920837' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</rows>
+        <cols>[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]</cols>
+      </table>
+      <simple-id uuid='{A517D13B-9EDF-4E49-B7F2-295CCA34A692}' />
+    </worksheet>
+    <worksheet name='Total Respondents'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontsize='10'>Total Respondents</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+            <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+            <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' filter-group='4'>
+            <groupfilter function='level-members' level='[none:Industry:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' filter-group='5'>
+            <groupfilter function='level-members' level='[none:Stress_Level:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Work_Location:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</column>
+            <column>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-align' value='center' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='font-size' value='10' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' value='Stress_Level' />
+            <format attr='title' field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' value='Work_Location' />
+            <format attr='title' field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' value='Industry' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-color' value='#8942a7' />
+            <format attr='background-color' value='#efebe8' />
+            <format attr='color' value='#000000' />
+          </style-rule>
+          <style-rule element='quick-filter-title'>
+            <format attr='color' value='#000000' />
+            <format attr='font-weight' value='bold' />
+            <format attr='text-align' value='center' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.1e34wtr1smen6014nlo030sp01zh].[sum:Number of Records:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.0544751882553101' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{66C8BF7D-E361-4F9B-BD09-7A7BBFAC7867}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard '>
+      <style />
+      <size maxheight='968' maxwidth='1890' minheight='968' minwidth='1890' preset-index='0' sizing-mode='fixed' />
+      <datasources>
+        <datasource caption='Cleaned_Mental_Health_Remote_Work' name='federated.1e34wtr1smen6014nlo030sp01zh' />
+      </datasources>
+      <datasource-dependencies datasource='federated.1e34wtr1smen6014nlo030sp01zh'>
+        <column datatype='string' name='[Industry]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Stress_Level]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Work_Location]' role='dimension' type='nominal' />
+        <column-instance column='[Industry]' derivation='None' name='[none:Industry:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Stress_Level]' derivation='None' name='[none:Stress_Level:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Work_Location]' derivation='None' name='[none:Work_Location:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='17' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98348' id='40' param='vert' type='layout-flow' w='99154' x='423' y='826'>
+            <zone h='98348' id='38' param='vert' type='layout-flow' w='99154' x='423' y='826'>
+              <zone h='98348' id='35' param='vert' type='layout-flow' w='99154' x='423' y='826'>
+                <zone h='98348' id='20' param='vert' type='layout-flow' w='99154' x='423' y='826'>
+                  <zone h='98348' id='18' type='layout-basic' w='99154' x='423' y='826' />
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='1756' id='10' is-scaled='1' param='C:/Users/HP/Downloads/images.jpg' type='bitmap' w='1526' x='3204' y='9194' />
+        <zone h='10847' id='42' name='Avg Stress level' w='14706' x='16627' y='8368' />
+        <zone h='2066' id='43' is-scaled='1' param='C:/Users/HP/Downloads/images (2).png' type='bitmap' w='1501' x='16387' y='8988' />
+        <zone h='10950' id='44' name='Fully Remote' w='15066' x='32413' y='8471' />
+        <zone h='2169' id='45' is-scaled='1' param='C:/Users/HP/Downloads/images (1).jpg' type='bitmap' w='1561' x='32773' y='8781' />
+        <zone h='10847' id='46' name='Satisfied With Remote' w='17587' x='49040' y='8368' />
+        <zone h='2789' id='47' is-scaled='1' param='C:/Users/HP/Downloads/download (2).png' type='bitmap' w='2101' x='48319' y='8574' />
+        <zone h='43595' id='48' name='Remote Work Satisfaction' w='33672' x='37691' y='20661' />
+        <zone h='3409' id='49' name='Remote Work Satisfaction' pane-specification-id='1' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' type='color' w='27143' x='41958' y='56405' />
+        <zone h='42459' id='50' name='Mental Health Condition' w='27191' x='72329' y='20868' />
+        <zone h='5165' id='51' name='Mental Health Condition' pane-specification-id='1' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]' show-title='false' type='color' w='16032' x='79683' y='54339' />
+        <zone h='34401' id='60' name='Stress Level by Work Location' w='33373' x='2581' y='64773' />
+        <zone forceUpdate='true' h='2918' id='67' type='text' w='33253' x='180' y='789'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='16'>Impact of Remote Work on Mental Health</run>
+          </formatted-text>
+        </zone>
+        <zone h='31818' id='68' name='Satisfaction with Remote work by role' w='34034' x='65126' y='65496' />
+        <zone h='38017' id='77' name='Stress Level Over Weekly Work Hours' w='27721' x='35249' y='65186' />
+        <zone h='9298' id='78' name='Total Respondents' w='12614' x='2391' y='8471' />
+        <zone h='5785' id='79' mode='dropdown' name='Total Respondents' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' type='filter' w='8545' x='68616' y='8264' />
+        <zone h='5785' id='80' mode='dropdown' name='Total Respondents' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' type='filter' w='8545' x='79298' y='8471' />
+        <zone h='5785' id='81' mode='dropdown' name='Total Respondents' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' type='filter' w='8545' x='89827' y='8574' />
+        <zone h='37707' id='86' name='Stress Level by Age Group' w='35556' x='1905' y='20661' />
+        <zone h='10331' id='107' name='Sheet 19' show-title='false' w='13651' x='92063' y='413' />
+        <zone h='3099' id='72' type='dashboard-object' w='5820' x='92434' y='1550'>
+          <button action='tabdoc:goto-sheet window-id=&quot;{5E3002EB-3F19-460F-957B-33D16C8D624A}&quot;' button-type='text'>
+            <button-visual-state>
+              <caption>STORY</caption>
+              <button-caption-font-style bold='true' />
+              <format attr='background-color' value='#d4a6c80d' />
+            </button-visual-state>
+          </button>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2850' minheight='2850' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='127' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98348' id='126' param='vert' type='layout-flow' w='99154' x='423' y='826'>
+                <zone fixed-size='100' h='10331' id='107' is-fixed='true' name='Sheet 19' show-title='false' w='13651' x='92063' y='413'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='2918' id='67' type='text' w='33253' x='180' y='789'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Light' fontsize='16'>Impact of Remote Work on Mental Health</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3099' id='72' type='dashboard-object' w='5820' x='92434' y='1550'>
+                  <button action='tabdoc:goto-sheet window-id=&quot;{5E3002EB-3F19-460F-957B-33D16C8D624A}&quot;' button-type='text'>
+                    <button-visual-state>
+                      <caption>STORY</caption>
+                      <button-caption-font-style bold='true' />
+                      <format attr='background-color' value='#d4a6c80d' />
+                    </button-visual-state>
+                  </button>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='10847' id='42' is-fixed='true' name='Avg Stress level' w='14706' x='16627' y='8368'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='105' h='10847' id='46' is-fixed='true' name='Satisfied With Remote' w='17587' x='49040' y='8368'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5785' id='79' mode='dropdown' name='Total Respondents' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' type='filter' w='8545' x='68616' y='8264'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5785' id='80' mode='dropdown' name='Total Respondents' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' type='filter' w='8545' x='79298' y='8471'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5785' id='81' mode='dropdown' name='Total Respondents' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' type='filter' w='8545' x='89827' y='8574'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='90' h='9298' id='78' is-fixed='true' name='Total Respondents' w='12614' x='2391' y='8471'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='106' h='10950' id='44' is-fixed='true' name='Fully Remote' w='15066' x='32413' y='8471'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='27' h='2789' id='47' is-fixed='true' is-scaled='1' param='C:/Users/HP/Downloads/download (2).png' type='bitmap' w='2101' x='48319' y='8574'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='21' h='2169' id='45' is-fixed='true' is-scaled='1' param='C:/Users/HP/Downloads/images (1).jpg' type='bitmap' w='1561' x='32773' y='8781'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='20' h='2066' id='43' is-fixed='true' is-scaled='1' param='C:/Users/HP/Downloads/images (2).png' type='bitmap' w='1501' x='16387' y='8988'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='17' h='1756' id='10' is-fixed='true' is-scaled='1' param='C:/Users/HP/Downloads/images.jpg' type='bitmap' w='1526' x='3204' y='9194'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='37707' id='86' is-fixed='true' name='Stress Level by Age Group' w='35556' x='1905' y='20661'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43595' id='48' is-fixed='true' name='Remote Work Satisfaction' w='33672' x='37691' y='20661'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='3409' id='49' name='Remote Work Satisfaction' pane-specification-id='1' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' type='color' w='27143' x='41958' y='56405'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42459' id='50' is-fixed='true' name='Mental Health Condition' w='27191' x='72329' y='20868'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5165' id='51' name='Mental Health Condition' pane-specification-id='1' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]' show-title='false' type='color' w='16032' x='79683' y='54339'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='34401' id='60' is-fixed='true' name='Stress Level by Work Location' w='33373' x='2581' y='64773'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38017' id='77' is-fixed='true' name='Stress Level Over Weekly Work Hours' w='27721' x='35249' y='65186'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='31818' id='68' is-fixed='true' name='Satisfaction with Remote work by role' w='34034' x='65126' y='65496'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{69ADC09B-5F18-426D-8717-4F8AD8104079}' />
+    </dashboard>
+    <dashboard name='Remote Work Insights' type='storyboard'>
+      <style>
+        <style-rule element='story-description'>
+          <format attr='border-width' value='0' />
+          <format attr='border-style' value='none' />
+          <format attr='font-weight' value='normal' />
+          <format attr='color' value='#000000' />
+          <format attr='font-size' value='12' />
+        </style-rule>
+        <style-rule element='story-point-caption'>
+          <format attr='background-color' value='#ffffff' />
+          <format attr='color' value='#000000' />
+          <format attr='font-weight' value='bold' />
+          <format attr='font-size' value='8' />
+        </style-rule>
+      </style>
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type='layout-flow' w='98426' x='787' y='830'>
+            <zone h='4357' id='3' type='title' w='98426' x='787' y='830' />
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type='flipboard-nav' w='98426' x='787' y='5187' />
+            <zone h='83506' id='5' paired-zone-id='4' removable='false' type='flipboard' w='98426' x='787' y='15664'>
+              <flipboard active-id='7' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Overview' captured-sheet='Sheet 18' id='7' />
+                  <story-point caption='Remote Work Satisfaction' captured-sheet='Remote Work Satisfaction' id='1' />
+                  <story-point caption='Mental Health Condition' captured-sheet='Mental Health Condition' id='2' />
+                  <story-point caption='Stress Level by Work Location' captured-sheet='Stress Level by Work Location' id='3' />
+                  <story-point caption='Satisfaction with Remote work by role' captured-sheet='Satisfaction with Remote work by role' id='4' />
+                  <story-point caption='Stress Level by Age Group' captured-sheet='Stress Level by Age Group' id='5' />
+                  <story-point caption='Stress Level Over Weekly Work Hours' captured-sheet='Stress Level Over Weekly Work Hours' id='6' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='22822' hidden='true' id='6' story-point-id='1' type='text' w='74705' x='12402' y='52490'>
+          <formatted-text>
+            <run fontalignment='0' fontname='Times New Roman' lmargin='600' rmargin='600'>This chart shows how employees feel about working remotely.</run>
+            <run fontalignment='0' lmargin='600' rmargin='600'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Times New Roman' lmargin='600' rmargin='600'>The results are almost evenly split, but slightly more people are unsatisfied.</run>
+            <run fontalignment='0' lmargin='600' rmargin='600'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Times New Roman' lmargin='600' rmargin='600'>This means remote work is not working for some, but many still face issues. </run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='22303' hidden='true' id='7' story-point-id='2' type='text' w='68602' x='16929' y='50726'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#000000' fontname='Times New Roman'>This chart shows what mental health conditions people reported.</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Times New Roman'>The most common were Burnout, Anxiety, and Depression.Some people chose not to share their condition.This highlights the real emotional toll remote work can have.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='25104' hidden='true' id='8' story-point-id='3' type='text' w='62402' x='8858' y='49170'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#000000' fontname='Times New Roman'>This chart compares stress levels for people working Remote, Hybrid, or Onsite.</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Times New Roman'>All three locations had a mix of Low, Medium, and High stress</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Times New Roman'>Remote workers had slightly more Medium and High stress.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='19087' hidden='true' id='9' story-point-id='4' type='text' w='49705' x='46752' y='45021'>
+          <formatted-text>
+            <run fontalignment='0' fontname='Times New Roman'>This chart shows how different job roles feel about remote work.Most roles have a mix of Satisfied, Neutral, and Unsatisfied. Roles like HR and Designers show more dissatisfaction. This tells us that job type affects how people experience remote work.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='29668' hidden='true' id='10' story-point-id='5' type='text' w='58071' x='41732' y='37656'>
+          <formatted-text>
+            <run fontalignment='0' fontname='Times New Roman'>This chart shows how stress levels vary by age group.</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Times New Roman'>Stress is not the same for everyone some age groups feel more pressure than others.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='21577' hidden='true' id='11' story-point-id='6' type='text' w='60827' x='22933' y='67116'>
+          <formatted-text>
+            <run fontalignment='0' fontname='Times New Roman'>This line chart shows how stress changes with the number of hours worked per week. People who work more hours tend to report higher stress. It proves that overworking affects mental health  even while working from home.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='70954' id='12' story-point-id='7' type='text' w='73130' x='6791' y='12241'>
+          <formatted-text>
+            <run bold='true' fontalignment='0' fontname='Benton Sans Book'>Project Overview – Remote Work &amp; Mental Health</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontname='Benton Sans Book'>This story explores the </run>
+            <run bold='true' fontalignment='0' fontname='Benton Sans Book'>i</run>
+            <run fontalignment='0' fontname='Benton Sans Book'>mpact of remote work on mental health, based on responses from 5,000 employees.</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Benton Sans Book'>It covers:</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontname='Benton Sans Book'> Levels of stress, satisfaction, and mental health conditions</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Benton Sans Book'> How these vary by work location, job role, and industry</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Benton Sans Book'> Trends in company support and workload.</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontname='Benton Sans Book'>The goal is to find patterns that show what makes remote work healthy or harmful and to offer insights companies can act on.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{EB273757-829E-489D-8ABD-B7632B2FF419}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Total Respondents'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]' type='filter' />
+            <card mode='dropdown' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Job_Role:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EC90F06C-0B01-4215-BC44-CCB3F18F533D}' />
+    </window>
+    <window class='worksheet' name='Avg Stress level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{101A7D3F-D884-4B46-BEBF-F4E215C64F35}' />
+    </window>
+    <window class='worksheet' name='Fully Remote'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{F53C9A5A-D23D-4C4E-858F-4D7EC827BDA7}' />
+    </window>
+    <window class='worksheet' name='Satisfied With Remote'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{27409E74-A251-4CF5-873A-3961A94A347F}' />
+    </window>
+    <window class='worksheet' name='Remote Work Satisfaction'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Job_Role:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A611F6FE-57CD-44F8-ADEC-946BBE8059C0}' />
+    </window>
+    <window class='worksheet' name='Mental Health Condition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Job_Role:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{79B6769C-5C3E-45DE-BAA5-AC51BB76F13D}' />
+    </window>
+    <window class='worksheet' name='Stress Level by Work Location'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Job_Role:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{150583D2-4454-4ACB-BE52-63BF7CC26A19}' />
+    </window>
+    <window class='worksheet' name='Satisfaction with Remote work by role'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Industry:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Job_Role:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Stress_Level:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Work_Location:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D127F166-4DB0-4E1E-868A-1D0A706DD40B}' />
+    </window>
+    <window class='worksheet' name='Stress Level Over Weekly Work Hours'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Calculation_654710831864573952:nk]</field>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Hours_Worked_Per_Week:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9E63CA35-12B4-48D9-8CE7-4B06214A0886}' />
+    </window>
+    <window class='worksheet' name='Stress Level by Age Group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1e34wtr1smen6014nlo030sp01zh].[none:Calculation_654710831864573952:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{AC2EEBBA-305C-4A13-9EA9-A8B2D6ACF0D1}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard '>
+      <viewpoints>
+        <viewpoint name='Avg Stress level' />
+        <viewpoint name='Fully Remote' />
+        <viewpoint name='Mental Health Condition'>
+          <highlight field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Mental_Health_Condition:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Remote Work Satisfaction'>
+          <highlight field='[federated.1e34wtr1smen6014nlo030sp01zh].[none:Satisfaction_with_Remote_Work:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Satisfaction with Remote work by role'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Satisfied With Remote' />
+        <viewpoint name='Sheet 19' />
+        <viewpoint name='Stress Level Over Weekly Work Hours'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Stress Level by Age Group'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Stress Level by Work Location'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Respondents'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{BBC3CEFC-592E-4C5F-A2D2-8E557CFD1AD8}' />
+    </window>
+    <window class='dashboard' name='Remote Work Insights'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{5E3002EB-3F19-460F-957B-33D16C8D624A}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 18'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BDFF9486-CF32-476B-BE81-309222D3E3ED}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Sheet 19'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A0E792E4-DD6E-4C18-B04C-3D63CFB5C49C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='32' name='Avg Stress level' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAYAAABEmHeFAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAEhklEQVR4nO3cP0h6XRwG8Kd7jSAKc5AKUoIw7lBgRFeloMGggpr6M9RQS7TUGDQEBg2R
+      BFFre4S0BEGDNDkYIugYWlBUFEV1LZQuef2+0+v7iv259QOr3/1+oKXzeM495hNXD1hGRATG
+      DEr47gtg7DtxAZihcQGYoXEBmKFxAZihcQGYoXEBmKFxAZihcQGYoXEBmKFxAZihcQGYoXEB
+      mKFxAZihcQGYoXEBSkjTNOzs7KCjowMVFRUoKytDZWUlxsfHcXp6+qm54vE4XC4XTCYTTCYT
+      XC4X4vH4H2czmQxWVlZgt9shiiJEUYTdbsfi4iIURfnsln8+YiVxenpK7e3t1NLSQtvb25TJ
+      ZIiI6PLykiYmJsjhcNDx8bGuuQKBAFksFlpfXydVVUlVVVpfXyeLxfKpbCAQKMje399TV1cX
+      eb1eikajlM1mKZvNUjQaJa/XS06nk87Pz//8yfhBuAAlsru7S8vLy5TNZovGnp+fqa+vj+bm
+      5j6c5+bmhpxOJy0sLJCmafnfa5pGCwsLdHNzozvrdDoL8mtra9Ta2krX19dvruvz+fRu+Vfg
+      W6AS6e/vx/z8PERRLBqrqKhAe3u7rtugSCSCp6cnTE1NQRD++/MJgoCpqSlEIhHd2aenp4K8
+      oiiQJAm1tbVF61qtVjgcDiSTSb1b/hW4ACVSXl7+5tjj4yMODg7Q2Nj44TzhcBiSJKG+vr5o
+      rL6+HuFwWHdWkqSCfFtbG+Lx+Ksv8tvbW5ycnKCnp+fDa/xNuADfLJPJYGZmBnd3d5ienv4w
+      n0gk4HA4Xi1UeXk5EomE7qzD4SjI9/X1YWhoCMPDw4hEItA0DZqmIRKJoLe3Fy6XC2NjY1/c
+      6c/EBfgGmqZhZWUF1dXVmJycxMbGBhKJBJqamt59XC6Xg6ZpMJvN786dy+V0Zc1mcz7/r3Q6
+      /WphBEGAyWTSsbvfhQtQYhcXF+ju7sbq6iq2trawvb2NmpoaXY8VBAGiKCKVSr2ZEUURgiDo
+      yqZSqXweAPx+P6LRKILBIGRZzn8MKssygsEgotEo/H7/5zb8w3EBSujs7AwDAwPIZrOIxWIY
+      HBwseHOqR3NzM5LJJF5eXorGXl5e0NzcrDubTCbzeUVRsLe3h9HRUVgslqK8xWLB6Ogo9vb2
+      /qrzAC5AiaiqitnZWVRXV2N/fx8NDQ1fmsfj8eDo6AhXV1dFY1dXV/B4PLqzR0dH+byqqlAU
+      BVVVVW+uXVVVBUVRoKrql679J+IClEg4HMbh4SGWlpZe/Q+rl8fjgdlsxubmZsG9ey6Xw+bm
+      ZlEB3suazeZ83mq1orOzE4FAAOl0umjddDqNQCCAzs5OWK3WL1//j/PdBxFG4fP5SJZlenh4
+      0JVPpVLkdrvJ7XZTKpUqGAuFQlRXV1d0ultXV1c0z3vZUChUkD0+PiZJkt48CZYkSfdp9W/B
+      BSiRkZERAvDuz/9f7O8VgIgoFouRLMskiiKJokiyLFMsFnt17c9kHx4eyOfzkc1mI0EQSBAE
+      stls5PP5dJf3Nykj4i/HZcbF7wGYoXEBmKH9A+HxjC+PjIMNAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard ' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='32' name='Fully Remote' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAYAAABEmHeFAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAC2UlEQVR4nO3cv0vrUBQH8G/scxEMuNuxRfofWHQSQXDyNxUcWlERRAeR4KabYwVFVBwc
+      a0c7hi5CipuDSKHi0qpIQSEaVLSeNzkI+p7Sq7G93w/c8Z5zWvLtDaTEEBEBkaYa/B6AyE8M
+      AGmNASCtMQCkNQaAtMYAkNYYANIaA0BaYwBIawwAaY0BIK0xAKQ1BoC0xgCQ1hgA0hoDUIPK
+      5TIWFxdhmibS6fSn97mui/b2dhiG8eHq7OzE7e2tsp5bW1sIBAIIBoMolUqf3vdTGIAacnx8
+      jMHBQYTDYRQKBTQ2Nn5pv2mayOVyEJF318XFBfr6+tDc3KykZz6fx+rqKlZWVmCa5pdm/SkM
+      QI0olUqYnZ3FwMAArq6ukEwm0dTUpLTH/v4+YrGYkp6Pj4+wLAtDQ0OIRqNK51Tpj98D0Oe0
+      trYim81+W/1yuYyNjQ1MTk4q6bm+vo6bmxvMzc0hn8+rGlM5BoAAAJlMBvf390pqHR0dYXNz
+      Ezs7O2hpaVFS87vwFohwfX2NtbU1jI+PV13L8zxYloVYLParb31e8QTQnOu66O3tRVdXFxYW
+      FqqqdXh4iNHRUezu7qKjo0PRhN+LJ4DmMpkMLi8vMTExUVUd13VhWRbGxsZq4pf/FQOgMc/z
+      sL29jeHhYYRCoapq2baNg4MDLC8vIxAIvHm2EI1GcXJygmAwCMMwsLS0pOYDKMAAaMy2bZyd
+      nSGRSFRdq7+/H5VK5d3nC47jIBKJoFgsQkQYAPKf53lIJpPo6elBOBz2exzfMAB16uXlBYlE
+      4sO/IGSzWZyenmJ6ehoNDRpfBkI1YW9vTwD8c5mmKY7jiIjI+fm5hEIhGRkZkYeHhze17u7u
+      pLu7W+LxuFQqFWU9P+I4jkQiESkWi9V/EYoZInw5bj1KpVKYn5+Hbdtoa2vze5xfS+Ozr349
+      PT0hlUphamqKF/9/MAB1qFAo4Pn5GTMzM36P8uv9BXORvImuruwsAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Mental Health Condition' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Remote Work Insights' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Remote Work Satisfaction' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Satisfaction with Remote work by role' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAENElEQVR4nO3bTWucVRjH4ftJ0sQkYBNt1BZ8QV0UdSFYogvBTyD4hQVBceUbQpEurKUg
+      bWntS9Ikmsw8j2utQuZkMpP0f13LITfnbH4z58w86YZhGAoCdV3XLcx7EzBPAiDaPwLo+76c
+      iEjyTACQxBGIaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaEvH+aOTPiLddd2J
+      5uG0HC+AUV9PfrzXtMD6u5u1/NJq0yyctmMFMEvDMNR4/6hpdmFlqRaWnOo4vrMXwHio3esP
+      mmbX3t6olUtrU94RzzNvl0QTANEEQLQzdweYpaEfau/XR02zK6+s14WLK1PeEbMWHUBV1dGj
+      P5vmLmy8MOWdMA+OQESL/wSYlWEY6vF3dyae6xa62vjo8insiCoBzFbDEyUtT6H0o76Go/Hk
+      g1W1uHqhae68EsBz6PDBfh3c3mma3dy+MuXdnG3uAEQTANEEQDQBEE0ARPMtECdy+PCgDn7f
+      bZp98YOtuf+3oAA4kWHUV38wmvc2mjkCEU0ARBMA0dwBODfGB6Ma7f7VNLu8tfafF24BcG6M
+      9g5r/9aTptnll1erFp8NwBGIaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIg
+      mgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgC
+      IJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBo
+      AiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmA
+      aAIgmgCItjTvDfzbeDSqH778pmn2/fWP67VLb055RzzPzlwAszT0fd26fqNp9o3Nq7WytTbl
+      HTFr2QFU1cO795tmX91/a6p7YT7cAYgmAKIJgGgCINqxLsFDP9Tj+380LbD8+not12rTLJy2
+      YwUwGo3q5s+/NC2w/s5mrV++2DQLpy36a9BZ++mrbyeeWVhaqs+ufTHRzP7O07p78/bEa1VX
+      tbl9ZbK1dp/WnZa1qmrj2uWqrml0agQwQ/24n3yoG088srezW3d+awmgq/fqk4lG9neetq1V
+      VVeH7ermXIBLMNEEQDQBEE0ARBMA0QRANAEQze8AnBuP7j2oG19/3zT76Yef1+Lis+/3AuDc
+      GPq+RodHbbP/87ojENEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRAtL8B
+      A0ai19hCJyoAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='32' name='Satisfied With Remote' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAAAgCAYAAABEmHeFAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAETUlEQVR4nO3c3Su7bxwH8Pc2vqJMiLJmRXloiHJi4UCoxZGIzAlbC4WSHDjzB8xTibIT
+      UuThbI7ksWlOlYfSPNTaQwzLbMaw63fwi377br4/e5Bfv/vzqvvkuu7rc1/X3fXe7nbXeIwx
+      BkI4iv/TEyDkJ1EACKdRAAinUQAIp1EACKdRAAinUQAIp1EACKdRAAinUQAIp1EACKdRAAin
+      UQAIp1EACKdRAAinUQA4yG63Y2hoCEKhECsrK2HVeH5+xtTUFCQSCQQCAQQCASQSCR4fHwEA
+      TqcTMpkMPB7vj0dlZSUeHh4+6m5ubiIhISHouUlJSdjf34/KPXhHAeCQo6MjNDU1ITc3F0aj
+      EbGxsWHVcTgcaGxsxNTUFFZXV+H1euH1eqHT6eByuQAAQqEQ+/v7YIwFPaxWK6RSKRoaGpCY
+      mPhR+/LyEqWlpXA6nQFj7u/vIZPJonIv3sVEtRr5zzKbzejr64NarcbCwgKur6/D2kw+nw+j
+      o6O4ubmBXq9HcnLyR19xcfGX6+h0OgBAa2urX/vx8TEkEolfKL4TBYAjxGIxtra2Iq5zfn6O
+      +fl5TExM+G3+UNjtdkxPT6O9vR0ZGRkf7T6fDyaTCUVFRRHP86voEYiEZHd3F3FxcSgrKwu7
+      xtraGjweD9ra2vzanU4nzGYzCgoKIp3ml1EASEiOj49RWFiItLS0sMbf3d1hcnISKpUKIpHI
+      r8/lcuHh4cHvW+G7UQBISCwWC3Z2dtDV1YWDgwN4vV4AgNVqhUqlwt7e3qdjnU4n6uvrUV1d
+      jcHBwYB+sViMk5MTVFRU+I1ZWFhAVlYWqqqq4HA4oroeCgAJSWxsLORyOWZmZlBSUoJfv34B
+      AEQiEbRaLYaHh+HxeIKOXVtbg81mg1qt/vL1hEIhFAoF9Ho9bDYb5ubmorKOdxQAEhKpVIqr
+      q6ugm5zP5+P09BS3t7cBfW63G1qtFs3NzcjJyQn5umKxGJWVlTAYDGHN+zMUABKS8vJymEwm
+      mM3moP0xMTHg8XgB7RsbG7i4uIBSqYzo+uG+u/gMBYCERCaTIT8/HxqNBj6fz6/v5eUFxcXF
+      SE9P92t3u90YHx+HXC5Hbm7up7UNBsPHm+TfGY1GbG5uoqamJvJF/AMFgATl8/mgVCqRmZnp
+      92kfFxeHsbExbG9vQ6lUwmq1Avj7t/3+/n6MjIwEfEpvbW3h7OwM3d3d4PM/33KLi4vIzs6G
+      RqP5qOv1erG+vo66ujqUl5dDoVBEd6GMcMLy8jID8MdDKBQyg8HAGGPMYrGwnJwc1tLSwp6e
+      ngLqORwO1tvby1JSUhgAFh8fzxQKRcB5LpeL1dbWso6ODvb29vav8zw8PGQtLS0sNTWVAWAC
+      gYDl5eWx2dlZ9vr6GvmN+A2PMfpzXBJoaWkJAwMD2NjYQH5+/k9P59vQIxAJ8PLygqWlJXR2
+      dv6vNz9AASBBGI1GvL6+oqen56en8u3+AkHfKHj28tn6AAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Stress Level Over Weekly Work Hours' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Stress Level by Age Group' width='192'>
+      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
+      MQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCi
+      MQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCi
+      MQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCi
+      MQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCi
+      MQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCi
+      MQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCi
+      MQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCi
+      MQASjQGQaAyARGMAJBoDINEYAInGAEg0BkCiMQASjQGQaNa8J0B0HVpr9Ns+gpaPqB9CAzBt
+      E7abguM6UMZ453IGQDeajiL0zjtoPDtB96yFQTdANIigNWBYBuyMg/RyFqXdNaRLLgxztBAY
+      AN1YYTBAY6+G+tMj6DD6v3+P+iH8fhe+14V30EDpYQUr316HlbavfR98D0A3UhgMcPz4Fer/
+      PHznwf82HWk0vqzi6M8vEAaDa9/PfwHmBogq8EvnTAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Stress Level by Work Location' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='28' name='Total Respondents' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAAAcCAYAAAA3ILBTAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAAZ0lEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA2gew
+      7gQ04E9ipwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
