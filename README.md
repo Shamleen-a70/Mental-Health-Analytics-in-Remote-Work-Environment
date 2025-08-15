@@ -1,7 +1,6 @@
-# Mental-Health-Analytics-in-Remote-Work-Environment
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/ecf5df75-896c-41a0-b12f-c79fbb49154f" />
 
-## Overview
-This project analyzes the relationship between remote work and mental health, using Python for data preparation, R for statistical testing, and Tableau for interactive dashboard creation.
+Mental Health Analytics in Remote Work Environments is a comprehensive data analysis project that explores how different work arrangements—remote, hybrid, and onsite—impact employees’ mental well-being. Leveraging Python for data cleaning and preprocessing, R for statistical analysis, and Tableau for interactive visualization, the project examines trends in stress levels, job satisfaction, working hours, and common mental health conditions across various demographics and job roles. The insights generated aim to support organizations in creating data-driven strategies to enhance employee well-being, mitigate burnout, and foster a healthier, more productive workforce in the evolving world of work.
 
 ## Project Files
 - `Remote Work and Mental Health Analysis.ipynb` → Python data cleaning, preparation, and EDA
