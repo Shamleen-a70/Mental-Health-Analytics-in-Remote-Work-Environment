@@ -21,7 +21,7 @@ This project analyzes the relationship between remote work and mental health, us
 - Provided actionable insights for mental health in remote work environments
 
 ## 📈 Dashboard Preview
-*(Insert screenshot here)*
+<img width="1890" height="968" alt="Image" src="https://github.com/user-attachments/assets/265ef851-70d6-4987-90bd-231e4d0448b7" />
 
 ## 🧑‍💻 Author
 **Shamleena**
