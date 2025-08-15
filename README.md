@@ -30,5 +30,16 @@ Mental Health Analytics in Remote Work Environments is a comprehensive data anal
 ## Dashboard Preview
 <img width="1890" height="968" alt="Image" src="https://github.com/user-attachments/assets/265ef851-70d6-4987-90bd-231e4d0448b7" />
 
+## Dataset
+
+This project uses the Remote Work & Mental Health dataset from Kaggle, containing survey responses from around 5,000 people across different industries, roles, and age groups.
+
+- Key details in the dataset:
+- Work arrangements: Remote, Hybrid, Onsite
+- Stress levels and mental health conditions (Anxiety, Burnout, Depression, etc.)
+- Job satisfaction and work-life balance ratings
+- Demographics: Age group, gender, job role, weekly work hours
+The dataset is used for data cleaning and EDA in Python, statistical analysis in R, and dashboard creation in Tableau.
+
 ## Author
 **Shamleena**
